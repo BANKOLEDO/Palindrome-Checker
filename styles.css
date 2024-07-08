@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.entire-page {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(63, 26, 26);
+}
+
+.card-container {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.org {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: rgb(180, 157, 157);
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+    color: rgb(180, 157, 157);
+    font-size: 2rem;
+}
+
+.card-1, .card-2 {
+    background-color: rgb(180, 157, 157);
+    margin-top: 2rem;
+    padding:0 2rem 2rem 2rem;
+    border-radius: 0.4rem;
+    box-shadow: 0px 0px 10px black;
+    border-bottom: 5px solid rgb(228, 140, 140);
+}
+
+.card-1 label {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    margin: 2rem 0;
+    color: rgb(63, 26, 26);
+}
+
+.card-1 label input {
+    background-color: rgb(180, 157, 157);
+    border: none;
+    border-bottom: 2px solid rgb(63, 26, 26);
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.card-1 button {
+    padding: 0.5rem 1rem;
+    background-color: blanchedalmond;
+}
+
+.card-2 {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+#result {
+    font-size: 1.5rem;
+    color: rgb(63, 26, 26);
+    margin: 1rem 0 0 0;
+    padding: 2rem;
+}
+
+.flat-color-icons--idea {
+    display: inline-block;
+    width: 3em;
+    height: 1em;
+    margin-right: 1rem;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='24' cy='22' r='20' fill='%23fff59d'/%3E%3Cpath fill='%23fbc02d' d='M37 22c0-7.7-6.6-13.8-14.5-12.9c-6 .7-10.8 5.5-11.4 11.5c-.5 4.6 1.4 8.7 4.6 11.3c1.4 1.2 2.3 2.9 2.3 4.8v.3h12v-.1c0-1.8.8-3.6 2.2-4.8c2.9-2.4 4.8-6 4.8-10.1'/%3E%3Cpath fill='%23fff59d' d='m30.6 20.2l-3-2c-.3-.2-.8-.2-1.1 0L24 19.8l-2.4-1.6c-.3-.2-.8-.2-1.1 0l-3 2c-.2.2-.4.4-.4.7s0 .6.2.8l3.8 4.7V37h2V26c0-.2-.1-.4-.2-.6l-3.3-4.1l1.5-1l2.4 1.6c.3.2.8.2 1.1 0l2.4-1.6l1.5 1l-3.3 4.1c-.1.2-.2.4-.2.6v11h2V26.4l3.8-4.7c.2-.2.3-.5.2-.8s-.2-.6-.4-.7'/%3E%3Ccircle cx='24' cy='44' r='3' fill='%235c6bc0'/%3E%3Cpath fill='%239fa8da' d='M26 45h-4c-2.2 0-4-1.8-4-4v-5h12v5c0 2.2-1.8 4-4 4'/%3E%3Cpath fill='%235c6bc0' d='m30 41l-11.6 1.6c.3.7.9 1.4 1.6 1.8l9.4-1.3c.4-.6.6-1.3.6-2.1m-12-2.3v2L30 39v-2z'/%3E%3C/svg%3E");
+}
