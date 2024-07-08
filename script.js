@@ -8,7 +8,8 @@ const isPalindrome = (str) => {
     return cleanedStr === reversedStr;
 }
 
-const textEntry = () => {
+const textEntry = (event) => {
+    event.preventDefault();
     const inputValue = textInput.value;
     if (inputValue === "") {
         alert("Please input a value");
